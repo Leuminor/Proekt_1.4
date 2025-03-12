@@ -7,90 +7,97 @@
     <title>Верстка_1.4</title>
   </head>
   <body>
-    <div class="case">
-      <section class="main-menu">
-        <div class="main-menu__Header">
-          <button
-            class="main-menu__round-btn main-menu__round-btn_pos round-btn"
-          >
-            <img src="img/icon-krest.svg" alt="Бургер" />
-          </button>
-          <a class="main-menu__logo" href="">
-            <img
-              class="logo"
-              src="img/Group.svg"
-              width="95"
-              height="50"
-              alt="Логотип CPS"
-          /></a>
-          <button class="main-menu__round-btn round-btn">
-            <img src="img/icon-lupa.svg" alt="Позвонить по телефону" />
-          </button>
-        </div>
+    <aside class="main-menu">
+      <header class="header">
+        <button class="header__round-btn header__round-btn_pos round-btn">
+          <img src="img/icon-krest.svg" alt="Бургер" />
+        </button>
+        <a class="header__logo" href="">
+          <img
+            class="logo"
+            src="img/Group.svg"
+            width="95"
+            height="50"
+            alt="Логотип CPS"
+        /></a>
+        <button class="header__round-btn round-btn">
+          <img src="img/icon-lupa.svg" alt="Позвонить по телефону" />
+        </button>
+      </header>
 
-        <ul class="main-menu__list listReset">
-          <li class="main-menu__elem">
-            <a href="" class="main-menu__a main-menu__a_active aReset"
+      <nav class="nav__list nav__list_reset">
+        <ul>
+          <li class="nav__elem">
+            <a href="" class="nav__a nav__a_active nav__a_reset"
               >Ремонт техники</a
             >
           </li>
-          <li class="main-menu__elem">
-            <a href="" class="main-menu__a aReset">Услуги и сервисы</a>
+          <li class="nav__elem">
+            <a href="" class="nav__a nav__a_reset">Услуги и сервисы</a>
           </li>
-          <li class="main-menu__elem">
-            <a href="" class="main-menu__a aReset">Корпоративным клиентам</a>
+          <li class="nav__elem">
+            <a href="" class="nav__a nav__a_reset">Корпоративным клиентам</a>
           </li>
-          <li class="main-menu__elem">
-            <a href="" class="main-menu__a aReset">Продовцам техники</a>
+          <li class="nav__elem">
+            <a href="" class="nav__a nav__a_reset">Продовцам техники</a>
           </li>
-          <li class="main-menu__elem">
-            <a href="" class="main-menu__a aReset">Партнерам</a>
+          <li class="nav__elem">
+            <a href="" class="nav__a nav__a_reset">Партнерам</a>
           </li>
-          <li class="main-menu__elem">
-            <a href="" class="main-menu__a aReset">Производителям</a>
+          <li class="nav__elem">
+            <a href="" class="nav__a nav__a_reset">Производителям</a>
           </li>
-          <li class="main-menu__elem">
-            <a href="" class="main-menu__a aReset">Наши сервисные центры</a>
+          <li class="nav__elem">
+            <a href="" class="nav__a nav__a_reset">Наши сервисные центры</a>
           </li>
-          <li class="main-menu__elem">
-            <a href="" class="main-menu__a aReset">Контакты</a>
+          <li class="nav__elem">
+            <a href="" class="nav__a nav__a_reset">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <footer class="footer">
+        <ul class="footer__btn nav__list_reset">
+          <li>
+            <button class="round-btn">
+              <img src="img/icon-trubka.svg" alt="Позвонить по телефону" />
+            </button>
+          </li>
+          <li>
+            <button class="round-btn">
+              <img src="img/icon-message.svg" alt="Напсиать в чат" />
+            </button>
+          </li>
+          <li>
+            <button class="round-btn">
+              <img src="img/icon-man.svg" alt="Личный профиль" />
+            </button>
           </li>
         </ul>
 
-        <div class="main-menu__footer">
-          <ul class="main-menu__footerBtn tabletButton listReset">
-            <li>
-              <button class="round-btn">
-                <img src="img/icon-trubka.svg" alt="Позвонить по телефону" />
-              </button>
-            </li>
-            <li>
-              <button class="round-btn">
-                <img src="img/icon-message.svg" alt="Напсиать в чат" />
-              </button>
-            </li>
-            <li>
-              <button class="round-btn">
-                <img src="img/icon-man.svg" alt="Личный профиль" />
-              </button>
-            </li>
-          </ul>
-          <div class="main-menu__mail-contact">mail@cps.com</div>
-          <div class="main-menu__phone-contact">8 800 890 8900</div>
+        <a
+          class="nav__mail-contact nav__mail-contact_reset"
+          href="mailto:mail@cps.com"
+          >mail@cps.com</a
+        >
+        <a
+          class="nav__phone-contact nav__mail-contact_reset"
+          href="tel:88008908900"
+          >8 800 890 8900</a
+        >
 
-          <ul class="main-menu__LangMenu LangMenu listReset">
-            <li>
-              <button class="LangMenu__btn LangMenu__btn_active">RU</button>
-            </li>
-            <li>
-              <button class="LangMenu__btn">EN</button>
-            </li>
-            <li>
-              <button class="LangMenu__btn">CH</button>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </div>
+        <ul class="lang-menu lang-menu_margin nav__list_reset">
+          <li>
+            <button class="lang-menu__btn lang-menu__btn_active">RU</button>
+          </li>
+          <li>
+            <button class="lang-menu__btn">EN</button>
+          </li>
+          <li>
+            <button class="lang-menu__btn">CH</button>
+          </li>
+        </ul>
+      </footer>
+    </aside>
   </body>
 </html>
